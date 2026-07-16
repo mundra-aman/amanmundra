@@ -80,6 +80,28 @@ h1 .legal {
   color: var(--violet);
 }
 
+/* icon links: original brand colors, quiet chrome.
+   a.iconlink ties .links a specificity; declared later so it wins the padding. */
+a.iconlink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+}
+
+a.iconlink:hover, a.iconlink:focus-visible { border-color: var(--blue); }
+.iconlink svg { display: block; }
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 14px;
+}
+
 /* ---- sections ---- */
 
 section { margin-top: 34px; }
