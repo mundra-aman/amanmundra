@@ -5,7 +5,7 @@
 
 ## Key pages
 - [About](https://amanmundra.com/#about): full bio, career history, talks, contact
-- [Home](https://amanmundra.com/): essays on AEO/GEO, machine learning, founder journey
+- [Blog](https://www.lifeisafile.com/): essays on AEO/GEO, machine learning, founder journey (separate long-running blog)
 
 ## Facts
 - Founder & CEO: Welzin (https://www.welzin.ai)
