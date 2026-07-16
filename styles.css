@@ -1,0 +1,166 @@
+/* amanmundra.com — karpathy-minimal, Welzin blue.
+   Tokens from the Welzin brand kit: Honolulu #007CC3, Violet #1F49B6, ink #191E25. */
+
+:root {
+  --ink: #191E25;
+  --muted: #5A6572;
+  --blue: #007CC3;
+  --violet: #1F49B6;
+  --hairline: #DCE6EE;
+  --paper: #FFFFFF;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 16px/1.65 "Poppins", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 56px 24px 40px;
+}
+
+/* ---- header ---- */
+
+.headshot {
+  float: right;
+  width: 164px;
+  height: auto;
+  margin: 6px 0 12px 24px;
+  border-radius: 4px;
+}
+
+h1 {
+  font: 300 2.35rem/1.15 "Fraunces", Georgia, serif;
+  letter-spacing: -0.015em;
+  margin: 0 0 2px;
+}
+
+h1 .legal {
+  font-size: 1.15rem;
+  color: var(--muted);
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.role {
+  margin: 2px 0 18px;
+  color: var(--violet);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.lede { margin: 0 0 18px; }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.links a {
+  font: 500 0.8rem/1 "JetBrains Mono", monospace;
+  color: var(--blue);
+  text-decoration: none;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 7px 11px;
+}
+
+.links a:hover, .links a:focus-visible {
+  border-color: var(--blue);
+  color: var(--violet);
+}
+
+/* ---- sections ---- */
+
+section { margin-top: 34px; }
+
+h2 {
+  font: 300 1.45rem/1.2 "Fraunces", Georgia, serif;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+
+h3 {
+  font: 600 0.95rem/1.4 "Poppins", sans-serif;
+  margin: 18px 0 4px;
+}
+
+p { margin: 0 0 12px; }
+
+a { color: var(--blue); text-underline-offset: 3px; }
+a:hover { color: var(--violet); }
+
+/* ---- the signature: hairline-blue career timeline ---- */
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid var(--blue);
+}
+
+.timeline li {
+  display: flex;
+  gap: 14px;
+  padding: 0 0 16px 16px;
+  position: relative;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 2px solid var(--blue);
+}
+
+.timeline .when {
+  flex: 0 0 4.6em;
+  font: 500 0.78rem/1.9 "JetBrains Mono", monospace;
+  color: var(--blue);
+  white-space: nowrap;
+}
+
+/* ---- lists, footer ---- */
+
+.plain { list-style: none; margin: 0; padding: 0; }
+.plain li { padding: 3px 0; }
+
+.mono { font-family: "JetBrains Mono", monospace; font-size: 0.9em; }
+
+footer {
+  margin-top: 44px;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.fine { font-size: 0.8rem; }
+
+/* ---- small screens ---- */
+
+@media (max-width: 540px) {
+  main { padding-top: 36px; }
+  .headshot { float: none; display: block; margin: 0 0 18px; }
+  h1 { font-size: 1.9rem; }
+  h1 .legal { display: block; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
