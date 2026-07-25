@@ -30,9 +30,9 @@ main {
 
 .headshot {
   float: right;
-  width: 164px;
+  width: 240px;
   height: auto;
-  margin: 6px 0 12px 24px;
+  margin: 6px 0 12px 28px;
   border-radius: 4px;
 }
 
@@ -106,6 +106,22 @@ a.iconlink:hover, a.iconlink:focus-visible { border-color: var(--blue); }
 
 section { margin-top: 34px; }
 
+/* company rows in Now: brand mark + description */
+.company {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin: 0 0 16px;
+}
+.company .cmark {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  margin-top: 2px;
+}
+.company p { margin: 0; }
+
 h2 {
   font: 300 1.45rem/1.2 "Fraunces", Georgia, serif;
   color: var(--ink);
@@ -176,7 +192,7 @@ footer {
 
 /* ---- small screens ---- */
 
-@media (max-width: 540px) {
+@media (max-width: 640px) {
   main { padding-top: 36px; }
   .headshot { float: none; display: block; margin: 0 0 18px; }
   h1 { font-size: 1.9rem; }
