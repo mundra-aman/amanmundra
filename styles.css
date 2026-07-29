@@ -92,21 +92,15 @@ h1 .legal {
   color: var(--violet);
 }
 
-/* named buttons: same 34px box as the icon buttons, mark + label centred */
+/* named buttons: same 34px box as the icon buttons, label optically centred */
 a.brandlink {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  justify-content: center;
   height: 34px;
-  padding: 0 13px;
+  padding: 0 15px;
+  letter-spacing: 0.01em;
   background: var(--paper);
-}
-
-a.brandlink img {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-  flex: none;
 }
 
 a.brandlink:hover, a.brandlink:focus-visible {
