@@ -173,6 +173,16 @@ a:hover { color: var(--violet); }
   white-space: nowrap;
 }
 
+/* ---- talks ---- */
+
+.talk { margin: 0 0 26px; }
+.talk h3 { margin: 0 0 2px; font-size: 1.05rem; }
+.talk .where { margin: 0 0 10px; color: var(--muted); font-size: 0.9rem; }
+.embed { aspect-ratio: 16 / 9; background: var(--hairline); border-radius: 6px; overflow: hidden; }
+.embed iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+h3.sub { margin: 28px 0 8px; font-size: 0.95rem; color: var(--muted); }
+
 /* ---- lists, footer ---- */
 
 .plain { list-style: none; margin: 0; padding: 0; }

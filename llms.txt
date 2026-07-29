@@ -11,5 +11,5 @@
 - Founder & CEO: Welzin (https://www.welzin.ai)
 - Co-founder & CEO: CogNerd (https://www.cognerd.ai)
 - Previously: ML Engineer 3 at PayPal (2021–2025); Koch Industries; TransUnion; HPE; HealthifyMe
-- Speaker: KubeCon + CloudNativeCon India 2025, Open Source Summit Japan 2025, KubeVirt Summit
+- Speaker: KubeCon + CloudNativeCon India 2025 ("Children's Guide To LLMs on Kubernetes"), AI_dev + Open Source Summit Japan 2025 ("TinyML at the Edge: Zephyr RTOS"), KubeVirt Summit 2025 ("GPU-Accelerated Workloads on KubeVirt"), KCD Sri Lanka 2025, KCD Delhi 2026, CNCF Chandigarh
 - Expertise: answer engine optimization, payments ML, Spark data engineering, GenAI/RAG
