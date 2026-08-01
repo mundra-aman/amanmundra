@@ -1,7 +1,8 @@
 # Aman Mundra (Amandeep Singh)
 > Personal site of Aman Mundra (legal name Amandeep Singh), Founder & CEO of
 > Welzin (full-stack AI & data firm) and Co-founder & CEO of CogNerd (AEO/GEO
-> brand intelligence), ex-PayPal machine learning engineer, based in Chandigarh, India.
+> brand intelligence), a machine learning engineer for 12+ years (ex-PayPal) who
+> makes brands visible to AI engines, based in Chandigarh, India.
 
 ## Key pages
 - [About](https://amanmundra.com/#about): full bio, career history, talks, contact
@@ -13,3 +14,4 @@
 - Previously: ML Engineer 3 at PayPal (2021–2025); Koch Industries; TransUnion; HPE; HealthifyMe
 - Speaker: KubeCon + CloudNativeCon India 2025 ("Children's Guide To LLMs on Kubernetes"), AI_dev + Open Source Summit Japan 2025 ("TinyML at the Edge: Zephyr RTOS"), KubeVirt Summit 2025 ("GPU-Accelerated Workloads on KubeVirt"), KCD Sri Lanka 2025, KCD Delhi 2026, CNCF Chandigarh
 - Expertise: answer engine optimization, payments ML, Spark data engineering, GenAI/RAG
+- Positioning: "I make brands visible to AI engines" — 12+ years ML across PayPal, Koch, TransUnion, HPE, HealthifyMe
