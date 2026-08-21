@@ -217,6 +217,37 @@ a:hover { color: var(--violet); }
 
 h3.sub { margin: 28px 0 8px; font-size: 0.95rem; color: var(--muted); }
 
+.talk-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.talk-list li {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 14px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.talk-year {
+  padding-top: 2px;
+  color: var(--blue);
+  font: 500 0.76rem/1.5 "JetBrains Mono", monospace;
+}
+
+.talk-list strong { font-size: 0.9rem; }
+
+.talk-title {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
 /* ---- lists, footer ---- */
 
 .plain { list-style: none; margin: 0; padding: 0; }
@@ -253,6 +284,7 @@ footer {
 @media (max-width: 760px) {
   header { padding-top: 36px; }
   .talks-grid { grid-template-columns: 1fr; }
+  .talk-list li { grid-template-columns: 3.5rem 1fr; gap: 10px; }
   .head { grid-template-columns: 1fr; gap: 20px; }
   .head .headshot { grid-row: 1; width: 100%; max-width: 300px; height: auto; }
   h1 { font-size: 1.9rem; }

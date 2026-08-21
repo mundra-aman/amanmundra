@@ -12,6 +12,19 @@
 - Founder & CEO: Welzin (https://www.welzin.ai)
 - Co-founder & CEO: CogNerd (https://www.cognerd.ai)
 - Previously: ML Engineer 3 at PayPal (2021–2025); Koch Industries; TransUnion; HPE; HealthifyMe
-- Speaker: KubeCon + CloudNativeCon India 2025 ("Children's Guide To LLMs on Kubernetes"), AI_dev + Open Source Summit Japan 2025 ("TinyML at the Edge: Zephyr RTOS"), KubeVirt Summit 2025 ("GPU-Accelerated Workloads on KubeVirt"), KCD Sri Lanka 2025, KCD Delhi 2026, CNCF Chandigarh
+- Speaker at Linux Foundation, CNCF, AI community, PHD Chamber, and ASSOCHAM events; complete record below
 - Expertise: answer engine optimization, payments ML, Spark data engineering, GenAI/RAG
 - Positioning: "I make brands visible to AI engines" — 12+ years ML across PayPal, Koch, TransUnion, HPE, HealthifyMe
+
+## Talks and conference appearances
+- KubeCon + CloudNativeCon India 2025, Hyderabad: "Children's Guide To LLMs on Kubernetes" (with Saloni Narang)
+- AI_dev + Open Source Summit Japan 2025, Tokyo: "TinyML at the Edge: Deploying and Optimizing AI Workloads on Zephyr RTOS"
+- KCD Sri Lanka 2025, Colombo: "Cloud Native Artificial Intelligence: Building Self-Healing Cloud Native Infrastructure with AI"
+- KubeVirt Summit 2025, virtual: "GPU-Accelerated Workloads on KubeVirt: Scaling ML/AI in Kubernetes" (with Shivani Tiwari)
+- ASSOCHAM Punjab Conclave on Skill Development 2025, Chandigarh: "Conclave on Skill Development for MSME Sectors"
+- PHD Chamber IT Conclave 2025, Chandigarh: "Insights that inspire businesses and professionals to embrace the future of AI and beyond"
+- CNCF Chandigarh GenAI Meetup 2025 at Infosys: "Scaling LLM Inference with Kubernetes & vLLM"
+- AI Hubs Meetup 2025, Chandigarh: "LLM Beginner Workshop"
+- KCD Delhi 2026: "KMCP and the Future of Agent-Native Kubernetes Control Planes"
+- CNCF Chandigarh 2026: "AAIF in Action: Live Demo of MCP, AGENTS.md and Goose for Cloud-Native Agent Platforms"
+- Full recordings, event links, and speaker profile: https://amanmundra.com/#talks
