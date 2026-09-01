@@ -75,14 +75,14 @@ header { padding: 56px 0 0; }
 }
 
 h1 {
-  font: 300 2.35rem/1.15 "Fraunces", Georgia, serif;
-  letter-spacing: -0.015em;
+  font: 400 3.1rem/1.05 "Fraunces", Georgia, serif;
+  letter-spacing: -0.025em;
   margin: 0 0 2px;
   text-wrap: balance;
 }
 
 h1 .legal {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   color: var(--muted);
   font-weight: 300;
   white-space: nowrap;
@@ -179,14 +179,15 @@ section:nth-of-type(even) { background: var(--band); }
 .company p { margin: 0; }
 
 h2 {
-  font: 300 1.45rem/1.2 "Fraunces", Georgia, serif;
+  font: 400 1.75rem/1.2 "Fraunces", Georgia, serif;
+  letter-spacing: -0.01em;
   color: var(--ink);
-  margin: 0 0 12px;
+  margin: 0 0 14px;
   text-wrap: balance;
 }
 
 h3 {
-  font: 600 0.95rem/1.4 "Poppins", sans-serif;
+  font: 600 1.02rem/1.45 "Poppins", sans-serif;
   margin: 18px 0 4px;
   text-wrap: balance;
 }
@@ -288,7 +289,7 @@ h3.sub { margin: 28px 0 8px; font-size: 0.95rem; color: var(--muted); }
 }
 
 .archive-year span {
-  font: 300 1.35rem/1 "Fraunces", Georgia, serif;
+  font: 400 1.35rem/1 "Fraunces", Georgia, serif;
   letter-spacing: -0.01em;
 }
 
@@ -406,7 +407,7 @@ footer {
   .speaker-profile { align-items: flex-start; flex-direction: column; gap: 4px; margin-top: 14px; }
   .head { grid-template-columns: 1fr; gap: 20px; }
   .head .headshot { grid-row: 1; width: 100%; max-width: 300px; height: auto; }
-  h1 { font-size: 1.9rem; }
+  h1 { font-size: 2.3rem; }
   h1 .legal { display: block; }
 }
 
